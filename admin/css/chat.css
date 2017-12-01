@@ -1,0 +1,79 @@
+/*  Chats starts here*/
+.chats {
+  margin: 0;
+  padding: 0;
+  margin-top: -15px; }
+  .chats li {
+    padding: 5px 0;
+    margin: 10px auto;
+    list-style: none;	}
+    .chats li img.avatar {
+      height: 60px;
+      width: 60px;
+      -webkit-border-radius: 60%;
+      -moz-border-radius: 60%;
+      border-radius: 60%; }
+    .chats li.in img.avatar {
+      margin-right: 10px;
+      float: left; }
+    .chats li .name {
+      color: #0daed3;
+      font-size: 13px;
+      font-weight: 400; 
+	  }
+    .chats li .date-time {
+      color: #1a1a1a;
+      font-size: 11px;
+      font-weight: 400; }
+    .chats li.out img.avatar {
+      float: right;
+      margin-left: 10px; }
+    .chats li .message {
+      display: block;
+      padding: 5px 10px;
+      position: relative; }
+    .chats li.in .message {
+      text-align: left;
+      border-left: 3px solid #0daed3;
+      margin-left: 80px;
+      background: #fff; }
+      .chats li.in .message .arrow {
+        display: block;
+        position: absolute;
+        top: 7px;
+        left: -8px;
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-right: 8px solid #0daed3; }
+    .chats li.out .message {
+      border-right: 3px solid #ed6d49;
+      margin-right: 80px;
+      background: #fff;
+      text-align: right; }
+      .chats li.out .message .arrow {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: -8px;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 8px solid #ed6d49; }
+    .chats li.out .name {
+      color: #ed6d49; }
+    .chats li.out .name, .chats li.out .date-time {
+      text-align: right; }
+    .chats li .message .body {
+      display: block; }
+
+.chat-form {
+  margin-top: 15px;
+  padding: 10px;
+  background: #e0e0e0;
+  clear: both; }
+  .chat-form .input-cont {
+    margin-right: 55px; }
+    .chat-form .input-cont input {
+      width: 100%;
+      margin-top: 0; }

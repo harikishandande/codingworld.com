@@ -1,0 +1,20 @@
+/**
+ * @license Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.html or http://ckeditor.com/license
+ */
+CKEDITOR.editorConfig = function( config )
+{
+config.height = '475px'; 
+config.extraPlugins = 'eqneditor,pbckcode,youtube';
+
+config.toolbarGroups = [
+{ name: 'pbckcode' }
+];
+
+};
+config.pbckcode = {	
+modes : [ ['C', 'c_pp'] ],
+theme : 'clouds',	
+highlighter : "PRETTIFY"
+};
+

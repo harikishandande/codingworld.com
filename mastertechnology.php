@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Master Technology | Coding World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div id="headerSection">
+			<div class="navbar">
+				<div class="nav-collapse">
+					<ul class="nav">
+						<a href="http://www.codingworld.in/"><span class="master">CODING WORLD<span></a>
+						<li><a href="index.php">HOME</a></li>
+						<li class="active"><a href="mastertechnology.php">MASTER TECHNOLOGY</a></li>
+						<li><a href="labprograms.php">LAB PROGRAMS</a></li>
+						<li><a href="materials.php">MATERIALS</a></li>
+						<li><a href="contactus.php">CONTACT US</a></li>
+					</ul>
+				</div>
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+		</div>
+	</div>	
+	<div class="top">
+		<div class="row-fluid">
+		<div id="myCarousel" class="carousel slide">
+			<div class="carousel slide" id="carousel-1993">
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#carousel-1993">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-1993">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-1993">
+					</li>
+					<li data-slide-to="3" data-target="#carousel-1993">
+					</li>
+					<li data-slide-to="4" data-target="#carousel-1993">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img alt="" src="img/carousel/one.png"/>
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="img/carousel/two.png"/>
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="img/carousel/three.png"/>
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="img/carousel/four.png"/>
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="img/carousel/five.png"/>
+						<div class="carousel-caption">
+						</div>
+					</div>
+				</div> 
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="#">
+		<div class="row-fluid">		
+			<div class="row-fluid">
+				<div class="span4">
+					<div class="course-box">
+						<a href="career.php" class="mask">
+						<div class="course-thumb">
+							<img src="img/career.jpg">
+						</div>
+						<div class="title">
+							Career Courses
+						</div>
+						<div class="instructors">
+						
+						</div>
+						</a>
+					</div>
+				</div>
+				<div class="span8">
+					<div class="courses span12">
+						<h3>Career Courses</h3>
+						<p><strong>Courses offered :</strong> C, C++, Java, PHP, Oracle.</p>
+						<div class="span12 content">
+							<div class="timings span7">
+								<p>
+									In short time, we will announce Timings.
+									In short time, we will announce Timings.
+									In short time, we will announce Timings.
+								</p>
+							</div>
+							<div class="register span5">
+								<a class="btn btn-large btn-success btn-block" href="register.php" >Register</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row-fluid">
+				<div class="span8">
+					<div class="courses span12">
+						<h3>Crash Courses</h3>
+						<p><strong>Courses offered :</strong>C, HTML & CSS, SQL / PL-SQL.</p>
+						<div class="span12 content">
+							<div class="timings span7">
+								<p>
+									In short time, we will announce Timings.
+									In short time, we will announce Timings.
+									In short time, we will announce Timings.
+								</p>
+							</div>
+							<div class="register span5">
+								<a class="btn btn-large btn-success btn-block" href="register.php" >Register</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="course-box">
+						<a href="crash.php" class="mask">
+						<div class="course-thumb">
+							<img src="img/crash.png">
+						</div>
+						<div class="title">
+							Crash Courses
+						</div>
+						<div class="instructors">
+						
+						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row-fluid">
+				<div class="span4">
+					<div class="course-box">
+						<a href="backlog.php" class="mask">
+						<div class="course-thumb">
+							<img src="img/backlog.jpg">
+						</div>
+						<div class="title">
+							Back Log Recovery
+						</div>
+						<div class="instructors">
+						
+						</div>
+						</a>
+					</div>
+				</div>
+				<div class="span8">
+					<div class="courses span12">
+						<h3>Back Log Recovery</h3>
+						<p><strong>Courses offered :</strong> All Engineering Subjects.</p>
+						<div class="span12 content">
+							<div class="timings span7">
+								<p>
+									In short time, we will announce Timings.
+									In short time, we will announce Timings.
+									In short time, we will announce Timings.
+								</p>
+							</div>
+							<div class="register span5">
+								<a class="btn btn-large btn-success btn-block" href="register.php" >Register</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<div id="footerSection">
+	<div class="row-fluid">
+		<div class="span2">
+			<h5>NAV Menu</h5>
+			<a href="index.php">HOME</a>
+			<a href="mastertechnology.php">MASTER TECHNOLOGY</a>
+			<a href="labprograms.php">LAB PROGRAMS</a>
+			<a href="materials.php">MATERIALS</a>
+			<a href="contactus.php">CONTACT US</a>
+		</div>
+		<div class="span4">
+			<h5>OUR Proffesors</h5>
+			<?php
+				include_once('includes/connection.php');
+				include_once('includes/article.php');
+				$article = new Article;
+				$articles = $article->fetch_prof();
+			?>
+			<?php foreach ($articles as $article)
+			{  	
+			?>
+				<a class="circle" href="#" style="margin:5px 10px 5px 0px;" class="pull-left"><img  src="userimages/<?php echo $article['user_img']; ?>" class="media-object" alt='' /></a>
+			<?php
+			}
+			?>
+		</div>
+		<div class="span3">
+			<h5>OUR Moderators</h5>
+			<?php
+				include_once('includes/connection.php');
+				include_once('includes/article.php');
+				$article = new Article;
+				$articles = $article->fetch_moder();
+			?>
+			<?php foreach ($articles as $article)
+			{  	
+			?>
+				<a class="circle" href="#" style="margin:5px 10px 5px 0px;" class="pull-left"><img  src="moderatorimages/<?php echo $article['moderator_img']; ?>" class="media-object" alt='' /></a>
+			<?php
+			}
+			?>
+		</div>
+		<div id="socialMedia" class="span3 pull-right">
+			<h5>SOCIAL MEDIA </h5>
+			<a href="https://www.facebook.com/pages/Coding-world/348153538631470"><img width="60" height="60" src="img/facebook.png" title="facebook" alt="facebook"/></a>
+			<a href="#"><img width="60" height="60" src="img/twitter.png" title="twitter" alt="twitter"/></a>
+			<a href="https://www.youtube.com/user/codingworld1"><img width="60" height="60" src="img/youtube.png" title="youtube" alt="youtube"/></a>
+		</div> 
+	</div>
+		<a class="pull-right" href="https://www.codingworld.in" style="font-size:16px;"><span style="color:#0099cc;font-weight:bold;font-size:18px;">&copy;</span> CodingWorld.in</a>
+</div>
+</body>
+</html>
